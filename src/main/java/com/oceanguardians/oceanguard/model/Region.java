@@ -20,6 +20,7 @@ public class Region {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long regionId;
 
+
     @Column(name = "coordenada-x")
     private Double coordenadaX;
 
