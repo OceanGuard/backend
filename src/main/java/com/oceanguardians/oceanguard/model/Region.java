@@ -20,8 +20,12 @@ public class Region {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long regionId;
 
-    @Column(name = "zona_pintada")
-    private Double zonaPintada;
+
+    @Column(name = "coordenada-x")
+    private Double coordenadaX;
+
+    @Column(name = "coordenada-y")
+    private Double coordenadaY;
 
     @Column(name = "nombre_region")
     private String nombreRegion;
