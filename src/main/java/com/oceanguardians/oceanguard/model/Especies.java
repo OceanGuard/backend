@@ -20,7 +20,7 @@ public class Especies {
         @GeneratedValue(strategy = GenerationType.IDENTITY)
         private long especiesId;
 
-        @Column(name = "nombre_especie")
+        @Column(name = "nombre_especie", unique = true)
         private String nombreEspecie;
 
         @Column(name = "nombre_cientifico")
