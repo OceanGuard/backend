@@ -1,6 +1,5 @@
 package com.oceanguardians.oceanguard.repository;
 
-import com.oceanguardians.oceanguard.dto.VedaDTO;
 import com.oceanguardians.oceanguard.model.Veda;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
@@ -14,4 +13,6 @@ public interface VedaRepository extends JpaRepository<Veda, Long> {
 
     @Query("SELECT v FROM Veda v JOIN v.especieEnVeda e WHERE e.nombreEspecie = :nombreEspecies")
     List<Veda> findByNombreEspecie(@Param("nombreEspecie") String nombreEspecie);
+
+
 }
