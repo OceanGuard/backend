@@ -5,7 +5,7 @@ import lombok.Data;
 import java.util.Date;
 
 @Data
-public class VedaDTO {
+public class VedaPorEspecieDTO {
 
     private String nombreEspecie;
     private String descripcionVeda;

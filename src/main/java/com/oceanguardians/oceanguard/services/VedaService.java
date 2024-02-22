@@ -1,6 +1,5 @@
 package com.oceanguardians.oceanguard.services;
 
-import com.oceanguardians.oceanguard.dto.VedaDTO;
 import com.oceanguardians.oceanguard.model.Veda;
 
 import java.util.List;
