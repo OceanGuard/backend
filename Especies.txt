@@ -1,0 +1,426 @@
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(1, 'Beryx splendens', 'Alfonsino');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(2, 'Venus antiqua', 'Almeja');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(3, 'Diplomystes camposensis', 'Bagre');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(4, 'Nematogenys inermis', 'Bagre grande ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(5, 'Bullockia maldonadoi Trichomycterus chiltoni Trichomycterus  aerolatus Trichomycterus rivulatus Trichomycterus chungaraensis Trichomycterus laucaensis', 'Bagrecito');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(6, 'Balaenoptera musculus', 'Ballena azul o Rorcual gigante');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(7, 'Balaenoptera borealis', 'Ballena boba o Rorcual Rudolphi ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(8, 'Balaenoptera brydei', 'Ballena Bryde ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(9, 'Balaenoptera physalus', 'Ballena de aleta o Rorcual común');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(10, 'Eubalaena australis', 'Ballena franca del sur o austral ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(11, 'Megaptera novaeanglie', 'Ballena jorobada o yubarta ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(12, 'Balaenoptera Bonaerensis', 'Ballena minke antártica');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(13, 'Balaenoptera acutorostrata', 'Ballena minke o Rorcual pequeño ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(14, 'Ziphius cavirostris', 'Ballena picuda de Cuvier ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(15, 'Tasmacetus shepherdi', 'Ballena picuda de Shepherd');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(16, 'Caperea marginata', 'Ballena pigmea ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(17, 'Epigonus crassicaudus', 'Besugo');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(18, 'Physeter macrocephalus', 'Cachalote');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(19, 'Kogia sima', 'Cachalote enano ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(20, 'Kogia breviceps', 'Cachalote pigmeo ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(21, 'Globicephala macrorhynchus', 'Calderón negro de aletas cortas ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(22, 'Globicephala melas', 'Calderón negro de aletas largas ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(23, 'Argobuccinum argus', 'Caracol palo palo ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(24, 'Trophon gervesianus', 'Caracol trofón');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(25, 'Percilia gillissi', 'Carmelita');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(26, 'Percilia irwini', 'Carmelita de Concepción ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(27, 'Odontesthes mauleanun', 'Cauque del Maule ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(28, 'Odontesthes brevianalis', 'Cauque del norte ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(29, 'Lithodes santolla', 'Centolla');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(30, 'Gigartina spp.', 'Chicorea de mar ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(31, 'Aulacomya ater', 'Cholga');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(32, 'Mytilus chilensis', 'Chorito');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(33, 'Choromytilus chorus', 'Choro zapato ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(34, 'Lontra felina', 'Chungungo o gato de mar');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(35, 'Durvillaea antarctica ', 'Cochayuyo');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(36, 'Gari solida', 'Culengue');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(37, 'Lagenorhynchus australis', 'Delfín austral ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(38, 'Delphinus delphis', 'Delfín común ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(39, 'Delphinus capensis', 'Delfín común de rostro largo');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(40, 'Lagenorhynchus cruciger', 'Delfín cruzado ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(41, 'Steno bredanensis', 'Delfín de diente áspero ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(42, 'Stenella longirostris', 'Delfín girador o estenela giradora ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(43, 'Gramphus griseus', 'Delfín gris ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(44, 'Lissodelphis peronii', 'Delfín liso del sur ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(45, 'Stenella caeruleoalba', 'Delfín listado o estenela listada ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(46, 'Stenella attenuata', 'Delfín manchado o estenela machada ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(47, 'Tursiops truncatus', 'Delfín nariz de botella o tursión ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(48, 'Lagenorhynchus obscurus', 'Delfín oscuro ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(49, 'Loxechinus albus', 'Erizo');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(50, 'Pseudorca crassidens', 'Falsa orca ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(51, 'Lobodon carcinophagus', 'Foca cangrejera ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(52, 'Ommatophoca rossii', 'Foca de Ross ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(53, 'Leptonychotes weddellii', 'Foca de Weddell ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(54, 'Mirounga leonina', 'Foca elefante ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(55, 'Hydrurga leptonyx', 'Foca leopardo ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(56, 'Hyperoodon planifrons', 'Hiperodonte del sur ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(57, 'Ensis macha', 'Huepo o navaja de mar ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(58, 'Cachalote enano Kogia', 'Huillín');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(59, 'Macrocystis spp/ Macrosystis pyrifera', 'Huiro');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(60, 'Lessonia nigrescens/ Lessonia berteroana-spicata', 'Huiro negro ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(61, 'Lessonia trabeculata', 'Huiro palo ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(62, 'Cancer porteri', 'Jaiba limón o remadora ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(63, 'Cancer edwardsi', 'Jaiba marmola ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(64, 'Homalaspis plana', 'Jaiba mora ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(65, 'Cancer portieri', 'Jaiba paco ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(66, 'Taliepus dentatus', 'Jaiba panchote ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(67, 'Taliepus marginatus', 'Jaiba patuda ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(68, 'Cancer setosus', 'Jaiba peluda o pachona ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(69, 'Orestias agassii, Orestias chungarensis, Orestias laucaensis, Orestias ascotanensis y Orestias parinacotensis ', 'Karachi');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(70, 'Mordacia lapicida', 'Lamprea de agua dulce ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(71, 'Panulirus pascuensis', 'Langosta de Isla de Pascua');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(72, 'Jasus frontalis', 'Langosta de Juan Fernández');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(73, 'Fissurella spp.', 'Lapa');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(74, 'Mazzaella canaliculata y Asterfilopsis disciplinalis', 'Liquen gomoso');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(75, 'Arctocephalus gazella', 'Lobo fino antártico ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(76, 'Arctocephalus australis', 'Lobo fino austral ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(77, 'Arctocephalus philippi', 'Lobo fino de Juan Fernández ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(78, 'Arctocephalus tropicalis', 'Lobo fino subantártico ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(79, 'Otaria byronia', 'Lobo marino común ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(80, 'Concholepas concholepas', 'Loco ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(81, 'Porphyra spp.', 'Luche');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(82, 'Sarcothalia crispata', 'Luga negra ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(83, 'Gigartina skottsbergii', 'Luga roja ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(84, 'Mesodesma donacium', 'Macha');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(85, 'Phocoena dioptrica', 'Marsopa anteojillo ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(86, 'Phocoena spinipinnis', 'Marsopa espinosa ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(87, 'Mesoplodon traversii', 'Mesoplodón de Bahamonde ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(88, 'Mesoplodon densirostris', 'Mesoplodón de Blainville ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(89, 'Mesoplodon grayi', 'Mesoplodón de Gray ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(90, 'Mesoplodon hectori', 'Mesoplodón de Héctor ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(91, 'Mesoplodon layardii', 'Mesoplodón de Layard ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(92, 'Mesoplodon peruvianus', 'Mesoplodón peruano ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(93, 'Tagelus dombeii', 'Navajuela');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(94, 'Hoplosthethus atlanticus', 'Orange roughy ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(95, 'Orcinus orca', 'Orca');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(96, 'Orcinus glacialis', 'Orca antártica ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(97, 'Feresa attenuata', 'Orca pigmea ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(98, 'Argopecten purpuratus', 'Ostión del norte ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(99, 'Chlamys vitrea', 'Ostión del sur ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(100, 'Chlamys patagonica', 'Ostión patagónico ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(101, 'Ostrea chilensis', 'Ostra chilena ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(102, 'Basilichthys semotilus', 'Pejerrey');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(103, 'Basilichthys microlepidotus', 'Pejerrey del norte ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(104, 'Aplochiton zebra, Aplochiton taeniatus', 'Peladilla');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(105, 'Gracilaria spp', 'Pelillo');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(106, 'Athyonidium chilensis', 'Pepino de mar');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(107, 'Megabalanus psittacus', 'Picoroco ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(108, 'Pygoscelis adeliae', 'Pingüino Adelia ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(109, 'Eudyptula minor', 'Pingüino azul o enano ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(110, 'Pygoscelis antarctica', 'Pingüino de barbijo ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(111, 'Spheniscus humboldti', 'Pingüino de Humbolt ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(112, 'Spheniscus magellanicus', 'Pingüino de Magallanes ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(113, 'Eudyptes chrisocome', 'Pingüino de penacho amarillo ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(114, 'Aptenodytes forsteri', 'Pingüino emperador ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(115, 'Eudyptes chrysolophus', 'Pingüino macaroni');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(116, 'Pygoscelis papua', 'Pingüino papua ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(117, 'Aptenodytes patagonicus', 'Pingüino rey ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(118, 'Pyura chilensis', 'Piure');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(119, 'Cheirodon posciculus', 'Pocha');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(120, 'Cheirodon galusdae', 'Pocha de los lagos');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(121, 'Cheirodon australe', 'Pocha del sur');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(122, 'Cheirodon kiliani', 'Pochita');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(123, 'Enteroctopus megalocyathus', 'Pulpo del sur ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(124, 'Galaxias globiceps', 'Puye chico ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(125, 'Raja spp', 'Raya');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(126, 'Dipturus trachyderma', 'Raya espinosa ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(127, 'Zearaja chilensis', 'Raya volantín ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(128, 'Oncorhynchus tshawytscha', 'Salmón rey o chinook ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(129, 'Aguas Terrestres  Región Aysén', 'Salmonídeos');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(130, 'Pelamys platurus', 'Serpiente marina ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(131, 'Mulinia spp', 'Taquilla');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(132, 'Diplomystes nahuelbutaensis', 'Tollo');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(133, 'Diplomystes chilensis', 'Tollo de agua dulce ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(134, 'Cephalorhynchus eutropia', 'Tonina o tunina negra o Delfín chileno ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(135, 'Cephalorhynchus commersonii', 'Tonina o tunina overa ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(136, 'Caretta caretta', 'Tortuga boba ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(137, 'Dermochelys coriacea', 'Tortuga laud o cariácea ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(138, 'Lepidochelys olivacea', 'Tortuga olivácea ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(139, 'Chelonia mydas agassizi', 'Tortuga verde ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(140, 'Percichthys melanops', 'Trucha negra ');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(141, 'Semele solida', 'Tumbao');
+INSERT INTO oceanguard.especies
+(especies_id, nombre_cientifico, nombre_especie)
+VALUES(142, 'Berardius arnuxii', 'Zifio de Arnoux ');
