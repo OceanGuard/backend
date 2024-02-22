@@ -7,6 +7,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Table(name = "region")
@@ -32,4 +33,9 @@ public class Region {
 
     @OneToMany(mappedBy = "regionDeVeda")
     private ArrayList<Veda> vedaEsDeRegion;
+
+    @ManyToMany(mappedBy = "regiones")
+    private List<Especies> especies;
+
+
 }
