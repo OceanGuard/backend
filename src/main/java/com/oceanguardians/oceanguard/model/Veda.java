@@ -26,14 +26,14 @@ public class Veda {
     @Column(name = "fecha_de_termino")
     private Date fechaDeTermino;
 
-    @Column(name = "descripcion_veda")
+    @Column(name = "descripcion_veda", length = 5000)
     private String descripcionVeda;
 
-    @Column(name = "especificacion")
+    @Column(name = "especificacion", length = 5000)
     private String especificacion;
 
     @ManyToOne
-    @JoinColumn(name = "especies_id")
+    @JoinColumn(name = "especies_id", referencedColumnName = "especies_id") // Cambio aquí
     private Especies especieEnVeda;
 
     @ManyToOne

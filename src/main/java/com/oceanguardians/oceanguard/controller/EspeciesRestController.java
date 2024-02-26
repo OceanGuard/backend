@@ -20,7 +20,7 @@ public class EspeciesRestController {
     private final EspeciesServiceImpl especiesService;
 
     @GetMapping("/especies/{idRegion}")
-    public ResponseEntity<List<Especies>> buscarEspeciesPorRegion(@RequestParam long idRegion) {
+    public ResponseEntity<List<Especies>> buscarEspeciesPorRegion(@RequestParam int idRegion) {
         List<Especies> especies = especiesService.buscarEspeciesPorRegion(idRegion);
         return new ResponseEntity<>(especies, HttpStatus.OK);
     }
