@@ -1,5 +1,6 @@
 package com.oceanguardians.oceanguard.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -9,6 +10,7 @@ import lombok.Setter;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.Min;
 import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Table(name = "usuarios")
@@ -37,11 +39,12 @@ public class Usuarios {
     private String contraseniaUsuario;
 
     @ManyToMany
+    @JsonIgnore
     @JoinTable(
             name = "mis_vedas",//Se empieza definiendo el nombre de la tarea
             joinColumns = @JoinColumn(name = "usuario_id"), //Se indica columna que lleva llave foranea
             inverseJoinColumns = @JoinColumn(name = "veda_id")
     )
-    private ArrayList<Veda> vedaGuardada;
+    private List<Veda> vedaGuardada;
 
 }

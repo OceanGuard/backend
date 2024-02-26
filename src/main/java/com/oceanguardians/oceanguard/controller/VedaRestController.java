@@ -19,9 +19,11 @@ public class VedaRestController {
     private final VedaServiceImpl vedaService;
 
     @GetMapping("/veda/{nombreEspecie}")
-    public ResponseEntity<List<Veda>> buscarPorNombreEspecie(@RequestParam String nombreEspecie) {
+    public ResponseEntity<List<Veda>> buscarPorNombreEspecie(@PathVariable String nombreEspecie) {
         List<Veda> vedas = vedaService.buscarPorNombreEspecie(nombreEspecie);
         return new ResponseEntity<>(vedas, HttpStatus.OK);
+
     }
+
 
 }

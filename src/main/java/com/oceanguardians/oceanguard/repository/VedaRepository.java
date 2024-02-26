@@ -12,7 +12,7 @@ import java.util.List;
 @Repository
 public interface VedaRepository extends JpaRepository<Veda, Long> {
 
-    @Query("SELECT v FROM Veda v JOIN v.especieEnVeda e WHERE e.nombreEspecie = :nombreEspecies")
+    @Query("SELECT v FROM Veda v JOIN v.especieEnVeda e WHERE TRIM(e.nombreEspecie) = TRIM(:nombreEspecie)")
     List<Veda> findByNombreEspecie(@Param("nombreEspecie") String nombreEspecie);
 
 
