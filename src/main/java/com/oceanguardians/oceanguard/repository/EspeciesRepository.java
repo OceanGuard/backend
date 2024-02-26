@@ -13,4 +13,5 @@ public interface EspeciesRepository extends JpaRepository<Especies, Long>{
 
     @Query("SELECT e FROM Especies e JOIN Veda v ON e.especiesId = v.especieEnVeda WHERE v.regionDeVeda = :idRegion")
     List<Especies> findByRegionEnVeda(@Param("idRegion") long idRegion);
+
 }
