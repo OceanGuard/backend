@@ -18,7 +18,8 @@ public class Especies {
 
         @Id
         @GeneratedValue(strategy = GenerationType.IDENTITY)
-        private Number especiesId;
+        @Column(name = "especies_id")
+        private long especiesId;
 
         @Column(name = "nombre_especie", unique = true)
         private String nombreEspecie;

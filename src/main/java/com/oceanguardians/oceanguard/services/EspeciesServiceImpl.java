@@ -16,7 +16,7 @@ public class EspeciesServiceImpl implements EspeciesService{
     private final EspeciesRepository especiesRepository;
 
     @Override
-    public List<Especies> buscarEspeciesPorRegion(long idRegion){
+    public List<Especies> buscarEspeciesPorRegion(int idRegion){
         return especiesRepository.findByRegionEnVeda(idRegion);
     }
 

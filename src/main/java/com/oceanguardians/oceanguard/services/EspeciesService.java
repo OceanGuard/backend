@@ -6,6 +6,6 @@ import com.oceanguardians.oceanguard.model.Veda;
 import java.util.List;
 
 public interface EspeciesService {
-    List<Especies> buscarEspeciesPorRegion(long idRegion);
+    List<Especies> buscarEspeciesPorRegion(int idRegion);
 
 }
