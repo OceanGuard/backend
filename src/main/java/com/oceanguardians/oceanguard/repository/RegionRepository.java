@@ -11,5 +11,5 @@ public interface RegionRepository extends JpaRepository<Region, Long> {
 
     Region findByNombreRegion(String nombreRegion);
 
-    //INTEGRAR QUERY QUE MUESTRE TODAS LAS ESPECIES EN UN TERRITORIO
+
 }
