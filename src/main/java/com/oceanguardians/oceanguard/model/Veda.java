@@ -1,5 +1,6 @@
 package com.oceanguardians.oceanguard.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -8,6 +9,7 @@ import lombok.Setter;
 
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 @Entity
 @Table(name = "veda")
@@ -41,5 +43,6 @@ public class Veda {
     private Region regionDeVeda;
 
     @ManyToMany(mappedBy = "vedaGuardada")
-    private ArrayList<Usuarios> vedaAGuardar;
+    @JsonIgnore
+    private List<Usuarios> vedaAGuardar;
 }

@@ -9,7 +9,7 @@ import java.util.List;
 @Repository
 public interface RegionRepository extends JpaRepository<Region, Long> {
 
-    Region findByNombreRegion(String nombreRegion);
+    Region findByRegionId(long regionId);
 
 
 }

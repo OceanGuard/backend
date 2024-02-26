@@ -13,8 +13,8 @@ public class RegionServiceImpl implements RegionService{
 
     private final RegionRepository regionRepository;
 
-    public Region buscarPorNombreRegion(String nombreRegion){
-        return regionRepository.findByNombreRegion(nombreRegion);
+    public Region buscarPorIdRegion(long regionID){
+        return regionRepository.findByRegionId(regionID);
     }
 
 }
