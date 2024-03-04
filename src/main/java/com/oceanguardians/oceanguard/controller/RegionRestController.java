@@ -7,6 +7,8 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 @CrossOrigin("*")
 @RestController
 @Data
@@ -20,5 +22,10 @@ public class RegionRestController {
         Region region = regionService.buscarPorIdRegion(regionId);
         System.out.println("Received regionId: " + regionId);
         return new ResponseEntity<>(region, HttpStatus.OK);
+    }
+
+    @GetMapping("/regiones")
+    public List<Region> getAllEntities() {
+        return regionService.getAllEntities();
     }
 }

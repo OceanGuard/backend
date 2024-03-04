@@ -6,6 +6,8 @@ import jakarta.transaction.Transactional;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 @Transactional
 @AllArgsConstructor
@@ -17,4 +19,7 @@ public class RegionServiceImpl implements RegionService{
         return regionRepository.findByRegionId(regionID);
     }
 
+    public List<Region> getAllEntities() {
+        return regionRepository.findAll();
+    }
 }
