@@ -7,6 +7,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+@CrossOrigin("*")
 @RestController
 @Data
 @RequestMapping("/api/region")
@@ -17,6 +18,7 @@ public class RegionRestController {
     @GetMapping("/region/{regionId}")
     public ResponseEntity<Region> buscarPorNombreRegion(@PathVariable long regionId){
         Region region = regionService.buscarPorIdRegion(regionId);
+        System.out.println("Received regionId: " + regionId);
         return new ResponseEntity<>(region, HttpStatus.OK);
     }
 }
